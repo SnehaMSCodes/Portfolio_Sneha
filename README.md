@@ -1,16 +1,18 @@
 # 🧠 Sneha-Portfolio
 
-My personal portfolio showcasing production-grade Data Engineering pipelines, ML integration, and MLOps practices — built with HTML, CSS, and JavaScript.
+A personal portfolio showcasing scalable Data Engineering solutions, real-time analytics pipelines, and cloud-native architecture — with a focus on performance optimization, governance, and cross-domain data applications.
 
 ---
 
 ## 💼 Personal Portfolio Website
 
-This website highlights my contributions as a Data Engineer, featuring:
+This site highlights my journey and work as a Data Engineer, featuring:
 
-- 🔄 **Enterprise-Scale Data Pipelines**
-- ⚙️ **MLOps & Analytics Automation**
-- 🌐 **Cloud-Native Solutions (Azure, Databricks)**
+- 🔄 **Resilient & Modular ETL/ELT Pipelines** built using Azure Data Factory, Databricks, PySpark, and Airflow
+- ⚙️ **MLOps-Enabled Data Solutions** supporting MLflow, feature stores, and automated model deployments
+- ☁️ **Enterprise Cloud Architectures** using Azure Lakehouse, Delta Live Tables, and Unity Catalog
+- 📊 **Analytics & Business Intelligence Frameworks** with dimensional modeling, Power BI, and Tableau
+- 🔐 **Governance & Security Compliance** including RBAC, metadata management, and GDPR/CCPA alignment
 
 Designed with a responsive, accessible interface using semantic HTML, clean CSS, and modular JavaScript.
 
@@ -27,23 +29,6 @@ Designed with a responsive, accessible interface using semantic HTML, clean CSS,
 
 ---
 
-## 📁 Folder Structure
-
-
-
-Portfolio_Sneha/
-│
-├── assets/
-│ ├── css/
-│ │ └── style.css # Main stylesheet
-│ ├── icons/ # UI icons
-│ ├── images/ # Project logos and snapshots
-│ └── js/
-│ └── script.js # JavaScript for interactivity
-│
-├── index.html # Landing page
-├── README.md # This documentation
----
 
 ## 💡 Skills
 
