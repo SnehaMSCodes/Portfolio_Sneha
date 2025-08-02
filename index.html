@@ -409,32 +409,97 @@
       <!--
         - #RESUME
       -->
-      <article class="resume" data-page="resume">
-      
+      <article class="resume active" data-page="resume">
         <header>
           <h2 class="h2 article-title">Resume</h2>
-          <a href="./assets/doc/Sneha_DataEngineer.pdf" download class="download-button">
-            <ion-icon name="download-outline"></ion-icon> Download Resume (PDF)
-          </a>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 0.5rem;">
+            <a href="./assets/doc/Sneha_DataEngineer.pdf" download class="download-button">
+              <ion-icon name="download-outline"></ion-icon>
+              <span>Download Resume (PDF)</span>
+            </a>
+            <a href="./assets/doc/Sneha_DataEngineer.pdf" target="_blank" class="download-button" style="background-color: #333;">
+              <ion-icon name="open-outline"></ion-icon>
+              <span>View Resume Online</span>
+            </a>
+          </div>
         </header>
       
-        <!-- Resume Content (unchanged) -->
-        <!-- Keep your education, experience, skills sections exactly as you have them -->
+        <!-- Summary -->
+        <section>
+          <h3 class="h3">Professional Summary</h3>
+          <p>
+            Seasoned Data Engineer with 5 years of experience building enterprise-scale data solutions across the retail, manufacturing, energy, and finance sectors. Proven expertise in Azure cloud platforms, Databricks, real-time analytics, and ML pipeline optimization. Strong in cross-functional collaboration, automation, and delivering business intelligence with precision and scalability.
+          </p>
+        </section>
       
-        <!-- Example -->
+        <!-- Technical Skills -->
+        <section>
+          <h3 class="h3">Technical Skills</h3>
+          <ul class="skills-list content-card">
+            <li><strong>Cloud Platforms:</strong> Azure Databricks (Delta Live Tables, Unity Catalog), ADF, ADLS Gen2, Azure Synapse, Microsoft Fabric, Apache Spark</li>
+            <li><strong>Programming & Automation:</strong> Python, PySpark, SQL, T-SQL, Azure DevOps, Git</li>
+            <li><strong>Data Engineering:</strong> ETL/ELT Pipelines, Delta Lake, Medallion Architecture, CDC, Data Modeling, Validation & Cleansing</li>
+            <li><strong>Workflow & Monitoring:</strong> Apache Airflow, Azure Monitor, Spark UI, Job & Cluster Config, Performance Tuning</li>
+            <li><strong>Governance & Security:</strong> Unity Catalog, Data Lineage, Metadata Management, RBAC, Azure AD, Data Quality Frameworks</li>
+            <li><strong>Databases & BI:</strong> SQL Server, Snowflake, Power BI</li>
+          </ul>
+        </section>
+      
+        <!-- Experience -->
         <section class="timeline">
-          <!-- ... your education timeline ... -->
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+            <h3 class="h3">Professional Experience</h3>
+          </div>
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Engineer</h4>
+              <p class="timeline-subtitle">Landmark Group – Data Labs Landmark</p>
+              <span>May 2023 – Apr 2025</span>
+              <p class="timeline-text">
+                Designed and deployed 50+ ETL/ELT pipelines using Azure Databricks, ADF, and Delta Lake. Reduced manual prep by 80% with reusable frameworks. Implemented Unity Catalog for governance and automated CI/CD pipelines via Azure DevOps. Led data engineering for inventory forecasting, predictive analytics, and GA4 integration.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Engineer</h4>
+              <p class="timeline-subtitle">Infosys Limited (Clients: Siemens Gamesa, AMS Osram, Huhtamaki)</p>
+              <span>Jan 2021 – Apr 2023</span>
+              <p class="timeline-text">
+                Developed 70+ pipelines using ADF, Databricks, Logic Apps, and Python. Handled 2TB+ weekly ingestion from SAP, APIs, and ADLS. Integrated data into SQL Server & Snowflake, deployed CI/CD with Azure DevOps, and managed Apache Airflow DAGs. Improved system reliability to 99.9%.
+              </p>
+            </li>
+      
+          </ol>
         </section>
       
+        <!-- Education -->
         <section class="timeline">
-          <!-- ... your experience timeline ... -->
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="school-outline"></ion-icon></div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering in Computer Science</h4>
+              <p class="timeline-subtitle">APJ Abdul Kalam Technological University</p>
+              <span>2016 – 2020</span>
+            </li>
+          </ol>
         </section>
       
-        <section class="skill">
-          <!-- ... your skill progress bars ... -->
+        <!-- Certifications -->
+        <section>
+          <h3 class="h3">Certifications</h3>
+          <ul class="skills-list content-card">
+            <li>✅ Microsoft Azure Data Fundamentals</li>
+            <li>📌 Databricks Certified Data Engineer Associate <em>(Pursuing)</em></li>
+            <li>📌 Microsoft Certified: Fabric Data Engineer Associate <em>(Pursuing)</em></li>
+          </ul>
         </section>
-      
       </article>
+
 <!--       <article class="resume" data-page="resume">
 
         <header>
